@@ -1,0 +1,22 @@
+.item-info {
+    text-align: left;
+    border-top: 1px black solid;
+}
+
+.btn-primary {
+    transition: transform 0.1s;
+}
+.btn-primary:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+i {
+    color: rgb(228, 199, 36);
+}
+
+.item-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
