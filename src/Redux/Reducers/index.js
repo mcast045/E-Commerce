@@ -1,21 +1,8 @@
-import { GET_ITEM } from '../Constants/'
+import { combineReducers } from 'redux';
+import item from './item'
+import auth from './auth'
 
-const initialState = {
-    item: {},
-    loading: true
-}
-
-const rootReducer = (state = initialState, action) => {
-    switch (action.type) {
-        case GET_ITEM:
-            return {
-                ...state,
-                item: action.payload,
-                loading: false
-            }
-        default:
-            return state;
-    }
-}
-
-export default rootReducer
+export default combineReducers({
+    item,
+    auth
+});

@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import './Row.css'
 import { Row1, Row2 } from '../../../data/data'
 import { Link } from 'react-router-dom'
-import { getItem } from '../../../Redux/Actions'
+import { getItem } from '../../../Redux/Actions/item'
 
 const RowOne = () => {
 

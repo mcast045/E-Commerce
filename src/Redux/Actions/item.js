@@ -1,5 +1,5 @@
 import { Row1, Row2 } from '../../data/data'
-import { GET_ITEM } from '../Constants/'
+import { GET_ITEM } from '../Constants'
 
 export const getItem = id => ({
     type: GET_ITEM,
